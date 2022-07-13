@@ -1,0 +1,14 @@
+<h1>Conheça os nossos pets disponíveis!</h1>
+<div class="pets-container">
+  {{#each pets}}
+    <div class="pets-item">
+      <p><span class="bold">Registro: </span>{{this.id}}
+        <span class="bold">Nome: </span>{{this.name}}
+        <span class="bold">Raça: </span>{{this.race}}
+        <span class="bold">Idade: </span>{{this.age}}</p>
+      <div class="actions">
+        <a class="btn2" href="/pets/{{id}}">Conhecer mais</a>
+      </div>
+    </div>
+  {{/each}}
+</div>

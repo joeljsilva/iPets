@@ -1,0 +1,18 @@
+<h1>Informações sobre o PET</h1>
+<div class="pet-container">
+  <div class="pet-infos">
+    <p><span>Número de registro: </span>{{pet.id}}</p>
+    <p><span>Nome do Pet: </span>{{pet.name}}</p>
+    <p><span>Raça do Pet: </span>{{pet.race}}</p>
+    <p><span>Idade do Pet: </span>{{pet.age}}</p>
+  </div>
+  <div class="pet-img">
+    <img src="/img/pet.svg" alt="">
+  </div>
+</div>
+<div class="actions">
+  <a class="btn2" href="/pets/edit/{{pet.id}}">Editar infos</a>
+  <form action="/pets/remove/{{pet.id}}" method="POST">
+    <input class="btn2" type="submit" value="Remover">
+  </form>
+</div>

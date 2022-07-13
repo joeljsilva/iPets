@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+}
+a {
+  text-decoration: none;
+}
+.header-bg {
+  background: #caecae;
+}
+.header {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header .menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.header .menu a {
+  padding: 15px;
+  font-family: arial;
+  font-weight: bold;
+  color: #4B8C18;
+  transition: .3s;
+}
+.header .menu a:hover {
+  background-color: #4B8C18;
+  color: #caecae;
+  border-radius: 4px;
+}
+main {
+  min-height: 75vh;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  padding: 40px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4B8C18;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+.form-container p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 88, 88);
+}
+.form-title {
+  margin-bottom: 40px;
+}
+.form {
+  background-color: #4B8C18;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-end;
+  justify-items: center;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-control label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #caecae;
+  align-self: flex-start;
+}
+.form input[type="text"]{
+  padding: 10px;
+  border: 2px solid #caecae;
+  border-radius: 4px;
+}
+.btn {
+  width: 186px;
+  height: 40px;
+  background-color: #caecae;
+  color: #4B8C18;
+  border: none;
+  cursor: pointer;
+  opacity: .8;
+  font-weight: bold;
+  transition: .3s;
+}
+.btn:hover {
+  opacity: 1;
+}
+.btn2 {
+  width: 160px;
+  height: 40px;
+  background-color: #4B8C18;
+  color: #caecae;
+  border: none;
+  cursor: pointer;
+  opacity: .8;
+  font-weight: bold;
+  transition: .3s;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.home-img {
+  text-align: center;
+  height: 100px;
+  margin-top: 40px;
+}
+
+/*Lista animais*/
+.pets-container {
+  padding: 10px;
+  background-color: #d6f1c1;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.pets-item {
+  background-color: #aad884;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+}
+.bold {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/*Animal pagina individual*/
+.pet-container {
+  background-color: #caecae;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0;
+}
+.pet-infos {
+  font-size: 1.3rem;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pet-img img {
+  height: 250px;
+  width: 250px;
+}
+.pet-container span {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  padding: 40px;
+  background-color: #4B8C18;
+  color: #caecae;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}

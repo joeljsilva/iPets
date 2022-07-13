@@ -1,0 +1,22 @@
+<div class="form-container">
+  <div class="form-title">
+    <h1>Editar informações</h1>
+    <p>Repreencha o formulario para editar as informações do PET</p>
+  </div>
+  <form action="/pets/updatepet" method="post" class="form">
+    <input type="hidden" name="id" value="{{pet.id}}">
+    <div class="form-control">
+      <label for="name">Nome do pet: </label>
+      <input type="text" name="name" placeholder="Digite o nome do pet" value="{{pet.name}}" />
+    </div>
+    <div class="form-control">
+      <label for="race">Raça do pet: </label>
+      <input type="text" name="race" placeholder="Digite a raça do pet" value="{{pet.race}}"/>
+    </div>
+    <div class="form-control">
+      <label for="age">Idade do pet </label>
+      <input type="text" name="age" placeholder="Digite a idade do pet" value="{{pet.age}}"/>
+    </div>
+    <input class="btn" type="submit" value="Editar" />
+  </form>
+</div>

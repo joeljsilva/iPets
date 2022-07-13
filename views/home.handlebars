@@ -1,0 +1,22 @@
+<div class="form-container">
+  <div class="form-title">
+    <h1>Doação de animais</h1>
+    <p>Deseja doar um animal ? para isso preencha o formulário a seguir: </p>
+  </div>
+  <form action="/pets/insertpet" method="post" class="form">
+    <div class="form-control">
+      <label for="name">Nome do pet: </label>
+      <input type="text" name="name" placeholder="Digite o nome do pet" />
+    </div>
+    <div class="form-control">
+      <label for="race">Raça do pet: </label>
+      <input type="text" name="race" placeholder="Digite a raça do pet" />
+    </div>
+    <div class="form-control">
+      <label for="age">Idade do pet </label>
+      <input type="text" name="age" placeholder="Digite a idade do pet" />
+    </div>
+    <input class="btn" type="submit" value="Cadastrar" />
+  </form>
+  <img class="home-img" src="/img/home.svg" alt="">
+</div>
